@@ -1,9 +1,9 @@
 cask "afm-desktop" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.0.5"
-  sha256 arm:   "0c49655238dc873d772425747e7fb8a0da430892a5967fce41434a8962d78b1e",
-         intel: "8f68b59140373c0fbd27f7e7f0d9cfe1f879b803dd8e4b920d41df15f2872876"
+  version "0.0.6"
+  sha256 arm:   "367d4ee546593fec7c39b58ba65978988ee7c6ccf371c8a42737988ecb036a09",
+         intel: "8153d5f49cd9f84a7f274b61b15d8f7a206940c7961d8531f030cf5fd68f1822"
 
   url "https://github.com/akopichin/afm/releases/download/ds-v#{version}/afm-desktop-#{version}-darwin-#{arch}.zip"
   name "AFM Desktop"
